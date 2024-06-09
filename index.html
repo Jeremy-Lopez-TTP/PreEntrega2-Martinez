@@ -7,9 +7,28 @@
 	<title>Jizzy Photography</title>
 	<link rel="stylesheet" href="./css/estilo.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
+	<script>
+		Swal.fire({
+			title: "Se realizo un rediseño de la galería, se hizo el menú hamburguesa, se agrego una mapa en la página de contacto y se hicieron correciones menores en el código",
+			showClass: {
+				popup: `
+			animate__animated
+			animate__fadeInUp
+			animate__faster
+				`
+			},
+			hideClass: {
+				popup: `
+			animate__animated
+			animate__fadeOutDown
+			animate__faster
+			`}
+		});
+	</script>
 	<header>
 		<img src="./assets/img/logo_principal.webp">
 		<div class="menu-hamburguesa">
@@ -83,6 +102,7 @@
 			navBar = document.querySelector(".nav-menu");
 			navBar.classList.toggle("active");
 		}
+		
 	</script>
 </body>
 
