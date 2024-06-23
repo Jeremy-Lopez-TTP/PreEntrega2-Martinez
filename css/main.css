@@ -134,7 +134,8 @@ header img {
   margin-bottom: auto;
 }
 .info-box:hover,
-.btn:hover {
+.btn:hover
+{
   background-color: #fefefe;
   color: #11101b;
   border: 1px solid #11101b;
@@ -480,6 +481,9 @@ section .galeria .item-galeria img {
   text-transform: uppercase;
   font-weight: 500;
   transition: 0.3s linear;
+}
+.contacto-form .enviarbtn:hover{
+  opacity: .8;
 }
 
 .contacto-cajas {
