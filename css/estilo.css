@@ -320,6 +320,9 @@ footer img{
     align-items: center;
     padding: 20px;
 }
+.escenarios .texto-wrapper h2{
+    padding-bottom: 10px;
+}
 /*REUTILIZAMOS CÓDIGO DE LA SECCIÓN DE SERVICIOS*/
 
 /*GALERÍA*/
