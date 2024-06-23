@@ -251,9 +251,11 @@ footer img{
 }
 .imagen-section .texto-wrapper {
     padding: 0 20px;
+    font-size: 18px;
 }
 .imagen-section .texto-wrapper h2 {
     margin-top: 0;
+    font-size: 20px;
 }
 .testimonios{
 	padding: 40px 0;
